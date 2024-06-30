@@ -1,0 +1,33 @@
+# Pliki kompilowane przez Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Katalogi wirtualnych środowisk
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pliki konfiguracyjne specyficzne dla środowiska
+.env
+
+# Logi i bazy danych
+*.log
+*.sqlite3
+
+# Pliki tymczasowe
+*.tmp
+*.swp
+
+# Katalogi build
+build/
+dist/
+*.egg-info/
+
+# Ignorowanie katalogu PyCharma
+.idea/
+
+# Ignorowanie katalogów i plików specyficznych dla systemu operacyjnego
+.DS_Store
+Thumbs.db
